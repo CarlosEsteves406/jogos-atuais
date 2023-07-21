@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: floralwhite;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.titulo_principal {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo_conteudo {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+
+.texto_conteudo {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.imagens {
+    height: 400px;
+    width: 500px;
+    margin-top: 3%;
+  }
+
+.links {
+    padding: 20px 135px;
+    background-color: rgb(29, 150, 43);
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.destaque__texto {
+    color: yellow;
+}
+
+.rodape {
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.link_rodape {
+    text-decoration: none;
+    color: yellow;
+}
